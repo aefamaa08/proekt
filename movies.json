@@ -1,0 +1,408 @@
+[
+    {
+      "title": "Бэтмен",
+      "genre": "action",
+      "year": "2022",
+      "rating": 8.1,
+      "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+      "link": "https://www.kinopoisk.ru/film/590286/",
+      "price": 81000
+    },
+    {
+      "title": "Джокер",
+      "genre": "drama",
+      "year": "2019",
+      "rating": 8.5,
+      "image": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "link": "https://www.kinopoisk.ru/film/1048334/",
+      "price": 85000
+    },
+    {
+      "title": "Мстители: Финал",
+      "genre": "action",
+      "year": "2019",
+      "rating": 8.4,
+      "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "link": "https://www.kinopoisk.ru/film/843650/",
+      "price": 84000
+    },
+    {
+      "title": "1+1 (Неприкасаемые)",
+      "genre": "comedy",
+      "year": "2011",
+      "rating": 8.5,
+      "image": "https://exler.ru/films/images/26-04-2012/big/1.jpg",
+      "link": "https://www.kinopoisk.ru/film/535341/",
+      "price": 85000
+    },
+    {
+      "title": "Оно",
+      "genre": "horror",
+      "year": "2017",
+      "rating": 7.3,
+      "image": "https://image.tmdb.org/t/p/w500/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+      "link": "https://www.kinopoisk.ru/film/453397/",
+      "price": 73000
+    },
+    {
+      "title": "Интерстеллар",
+      "genre": "drama",
+      "year": "2014",
+      "rating": 8.6,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/600x900",
+      "link": "https://www.kinopoisk.ru/film/258687/",
+      "price": 86000
+    },
+    {
+      "title": "Тёмный рыцарь",
+      "genre": "action",
+      "year": "2008",
+      "rating": 9.0,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/8/83/Dark_knight_rises_poster.jpg",
+      "link": "https://www.kinopoisk.ru/film/111543/",
+      "price": 90000
+    },
+    {
+      "title": "Паразиты",
+      "genre": "drama",
+      "year": "2019",
+      "rating": 8.6,
+      "image": "https://static.hdrezka.ac/i/2022/12/6/k625b5812e2a4na28d45d.png",
+      "link": "https://www.kinopoisk.ru/film/1043758/",
+      "price": 86000
+    },
+    {
+      "title": "Трансформеры",
+      "genre": "action",
+      "year": "2007",
+      "rating": 7.0,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/b185435b-ac4a-4ec1-aabf-0a1ea829d32a/600x900",
+      "link": "https://www.kinopoisk.ru/film/1229682/",
+      "price": 70000
+    },
+    {
+      "title": "Звёздные войны: Пробуждение силы",
+      "genre": "action",
+      "year": "2015",
+      "rating": 7.8,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/a/a8/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B_%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D0%BB%D1%8B.jpg",
+      "link": "https://www.kinopoisk.ru/film/714888/",
+      "price": 78000
+    },
+    {
+      "title": "Джон Уик",
+      "genre": "action",
+      "year": "2014",
+      "rating": 7.4,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/5ab427c8-4a7d-4766-abf9-a9748a69dbf4/220x330",
+      "link": "https://www.kinopoisk.ru/film/762738/",
+      "price": 74000
+    },
+    {
+      "title": "Гарри Поттер и философский камень",
+      "genre": "adventure",
+      "year": "2001",
+      "rating": 7.9,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/600x900",
+      "link": "https://www.kinopoisk.ru/film/689/",
+      "price": 79000
+    },
+    {
+      "title": "Начало",
+      "genre": "action",
+      "year": "2010",
+      "rating": 8.8,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/b/bc/Poster_Inception_film_2010.jpg",
+      "link": "https://www.kinopoisk.ru/film/447301/",
+      "price": 88000
+    },
+    {
+      "title": "Миссия невыполнима: Фаллут",
+      "genre": "action",
+      "year": "2018",
+      "rating": 7.7,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/787e3b08-7022-4bf3-b207-4da1ddd3f326/220x330",
+      "link": "https://www.kinopoisk.ru/film/926540/",
+      "price": 77000
+    },
+    {
+      "title": "Достучаться до небес",
+      "genre": "comedy",
+      "year": "1997",
+      "rating": 8.2,
+      "image": "https://static.okko.tv/images/v4/bc70895f-7477-4be6-9316-d5bfd2c04fd2",
+      "link": "https://www.kinopoisk.ru/film/32898/",
+      "price": 82000
+    },
+    {
+      "title": "Гладиатор",
+      "genre": "action",
+      "year": "2000",
+      "rating": 8.5,
+      "image": "https://cdn1.ozone.ru/s3/multimedia-f/6779663043.jpg",
+      "link": "https://www.kinopoisk.ru/film/474/",
+      "price": 85000
+    },
+    {
+      "title": "Зеленая миля",
+      "genre": "drama",
+      "year": "1999",
+      "rating": 9.0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmZ6J63pfjYyx5dZ8MwHCFfKjA2KuGy2wHJg&s",
+      "link": "https://www.kinopoisk.ru/film/435/",
+      "price": 90000
+    },
+    {
+      "title": "Форрест Гамп",
+      "genre": "drama",
+      "year": "1994",
+      "rating": 8.8,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/600x900",
+      "link": "https://www.kinopoisk.ru/film/448/",
+      "price": 88000
+    },
+    {
+      "title": "Матрица",
+      "genre": "action",
+      "year": "1999",
+      "rating": 8.7,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/cf1970bc-3f08-4e0e-a095-2fb57c3aa7c6/600x900",
+      "link": "https://www.kinopoisk.ru/film/301/",
+      "price": 87000
+    },
+    {
+      "title": "Шерлок Холмс",
+      "genre": "action",
+      "year": "2009",
+      "rating": 7.6,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/244e2847-f426-4c60-86ba-34cde7db695f/220x330",
+      "link": "https://www.kinopoisk.ru/film/397667/",
+      "price": 76000
+    },
+    {
+      "title": "Король Лев",
+      "genre": "animation",
+      "year": "1994",
+      "rating": 8.5,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/6/62/Lion_king_ver1.jpg",
+      "link": "https://www.kinopoisk.ru/film/2360/",
+      "price": 85000
+    },
+    {
+      "title": "Социальная сеть",
+      "genre": "drama",
+      "year": "2010",
+      "rating": 7.7,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/9/95/%D0%A1%D0%BE%D1%86%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C.jpg",
+      "link": "https://www.kinopoisk.ru/film/447301/",
+      "price": 77000
+    },
+    {
+      "title": "Волк с Уолл-стрит",
+      "genre": "drama",
+      "year": "2013",
+      "rating": 8.2,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/7/72/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg",
+      "link": "https://www.kinopoisk.ru/film/462682/",
+      "price": 82000
+    },
+    {
+      "title": "Доктор Стрэндж",
+      "genre": "action",
+      "year": "2016",
+      "rating": 7.5,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/Doctor_Strange_poster.jpg/640px-Doctor_Strange_poster.jpg",
+      "link": "https://www.kinopoisk.ru/film/841263/",
+      "price": 75000
+    },
+    {
+      "title": "Хоббит: Нежданное путешествие",
+      "genre": "adventure",
+      "year": "2012",
+      "rating": 7.8,
+      "image": "https://static.okko.tv/images/v4/d24ee8b7-ac59-47d8-aea7-c02707666432",
+      "link": "https://www.kinopoisk.ru/film/278522/",
+      "price": 78000
+    },
+    {
+      "title": "Логан",
+      "genre": "action",
+      "year": "2017",
+      "rating": 8.1,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/4/42/Logan_poster.jpg",
+      "link": "https://www.kinopoisk.ru/film/841152/",
+      "price": 81000
+    },
+    {
+      "title": "Капитан Америка: Противостояние",
+      "genre": "action",
+      "year": "2016",
+      "rating": 7.8,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/b/b5/Captain_America_Civil_War.jpg/960px-Captain_America_Civil_War.jpg",
+      "link": "https://www.kinopoisk.ru/film/822709/",
+      "price": 78000
+    },
+    {
+      "title": "Поймай меня, если сможешь",
+      "genre": "drama",
+      "year": "2002",
+      "rating": 8.1,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e38dd6f9-610e-4c90-8540-dc48560cb9cc/600x900",
+      "link": "https://www.kinopoisk.ru/film/4965/",
+      "price": 81000
+    },
+    {
+      "title": "Вверх",
+      "genre": "animation",
+      "year": "2009",
+      "rating": 8.2,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/8d19eeb1-608b-4cdd-917e-b3a255471e2b/600x900",
+      "link": "https://www.kinopoisk.ru/film/280172/",
+      "price": 82000
+    },
+    {
+      "title": "Тайна Коко",
+      "genre": "animation",
+      "year": "2017",
+      "rating": 8.4,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/d/d7/Coco_%282017_film%29_logo.jpg",
+      "link": "https://www.kinopoisk.ru/film/1021240/",
+      "price": 84000
+    },
+    {
+      "title": "Остров проклятых",
+      "genre": "thriller",
+      "year": "2010",
+      "rating": 8.1,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/2/22/Kinopoisk.ru-Shutter-Island-1094940.jpg",
+      "link": "https://www.kinopoisk.ru/film/397667/",
+      "price": 81000
+    },
+    {
+      "title": "Коко до Шанель",
+      "genre": "drama",
+      "year": "2009",
+      "rating": 6.7,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e2def135-62aa-416c-aa3b-e74cf7cac4a6/600x900",
+      "link": "https://www.kinopoisk.ru/film/431899/",
+      "price": 67000
+    },
+    {
+      "title": "Рататуй",
+      "genre": "animation",
+      "year": "2007",
+      "rating": 8.0,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/d1/Ratatui.jpg/330px-Ratatui.jpg",
+      "link": "https://www.kinopoisk.ru/film/195334/",
+      "price": 80000
+    },
+    {
+      "title": "Гравитация",
+      "genre": "sci-fi",
+      "year": "2013",
+      "rating": 7.7,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5e/Gravity_poster.jpg/640px-Gravity_poster.jpg",
+      "link": "https://www.kinopoisk.ru/film/693969/",
+      "price": 77000
+    },
+    {
+      "title": "Хатико: Самый верный друг",
+      "genre": "drama",
+      "year": "2009",
+      "rating": 8.1,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/e/e3/%D0%A5%D0%B0%D1%82%D0%B8%D0%BA%D0%BE-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC.jpg",
+      "link": "https://www.kinopoisk.ru/film/406897/",
+      "price": 81000
+    },
+    {
+      "title": "Форрест Гамп",
+      "genre": "drama",
+      "year": "1994",
+      "rating": 8.8,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/600x900",
+      "link": "https://www.kinopoisk.ru/film/448/",
+      "price": 88000
+    },
+    {
+      "title": "Матрица",
+      "genre": "action",
+      "year": "1999",
+      "rating": 8.7,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/cf1970bc-3f08-4e0e-a095-2fb57c3aa7c6/600x900",
+      "link": "https://www.kinopoisk.ru/film/301/",
+      "price": 87000
+    },
+    {
+      "title": "Шерлок Холмс",
+      "genre": "action",
+      "year": "2009",
+      "rating": 7.6,
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/244e2847-f426-4c60-86ba-34cde7db695f/220x330",
+      "link": "https://www.kinopoisk.ru/film/420923/",
+      "price": 76000
+    },
+    {
+      "title": "Король Лев",
+      "genre": "animation",
+      "year": "1994",
+      "rating": 8.5,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/6/62/Lion_king_ver1.jpg",
+      "link": "https://www.kinopoisk.ru/film/2360/",
+      "price": 85000
+    },
+    {
+      "title": "Социальная сеть",
+      "genre": "drama",
+      "year": "2010",
+      "rating": 7.7,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/9/95/%D0%A1%D0%BE%D1%86%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C.jpg",
+      "link": "https://www.kinopoisk.ru/film/462682/",
+      "price": 77000
+    },
+    {
+      "title": "Волк с Уолл-стрит",
+      "genre": "drama",
+      "year": "2013",
+      "rating": 8.2,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/7/72/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg",
+      "link": "https://www.kinopoisk.ru/film/462682/",
+      "price": 82000
+    },
+    {
+      "title": "Доктор Стрэндж",
+      "genre": "action",
+      "year": "2016",
+      "rating": 7.5,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/Doctor_Strange_poster.jpg/640px-Doctor_Strange_poster.jpg",
+      "link": "https://www.kinopoisk.ru/film/843649/",
+      "price": 75000
+    },
+    {
+      "title": "Хоббит: Нежданное путешествие",
+      "genre": "adventure",
+      "year": "2012",
+      "rating": 7.8,
+      "image": "https://static.okko.tv/images/v4/d24ee8b7-ac59-47d8-aea7-c02707666432",
+      "link": "https://www.kinopoisk.ru/film/278522/",
+      "price": 78000
+    },
+    {
+      "title": "Логан",
+      "genre": "action",
+      "year": "2017",
+      "rating": 8.1,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/4/42/Logan_poster.jpg",
+      "link": "https://www.kinopoisk.ru/film/841263/",
+      "price": 81000
+    },
+    {
+      "title": "Рататуй",
+      "genre": "animation",
+      "year": "2007",
+      "rating": 8.0,
+      "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/d1/Ratatui.jpg/330px-Ratatui.jpg",
+      "link": "https://www.kinopoisk.ru/film/195334/",
+      "price": 80000
+    }
+  ]
+  

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biz Haqimizda</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Biz haqimizda</h1>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="login.html">Войти</a>
+        <a href="favorites.html">Избранное</a>
+        <a href="savat.html">Корзина</a>
+        <a href="about_us.html">О нас</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <div class="about-content">
+      <h2>Biz kimmiz?</h2>
+      <p>
+        Biz texnologiya va innovatsiyalar sohasida ishlovchi jamoa bo'lib, samarali va zamonaviy echimlar yaratish bilan shug'ullanamiz.
+        Maqsadimiz — yangi g'oyalar va ilg'or texnologiyalar yordamida dunyoni yaxshilashdir. 
+      </p>
+      <h3>Bizning missiyamiz</h3>
+      <p>
+        Bizning missiyamiz – ilg'or texnologiyalarni joriy etish, insonlar hayotini yengillashtirish va o‘zgartirishdir.
+        Har bir loyiha bizning iste’dodimizni va jamoamizning kuchini namoyon etadi.
+      </p>
+      <h3>Bizning qadriyatlarimiz</h3>
+      <ul>
+        <li><strong>Innovatsiya:</strong> Doimo yangi g'oyalar va texnologiyalarni izlab topamiz.</li>
+        <li><strong>Jamoa ishlashi:</strong> Jamoamiz birgalikda ishlashga va yutuqlarga erishishga ishonadi.</li>
+        <li><strong>Axborot xavfsizligi:</strong> Foydalanuvchi ma'lumotlarining xavfsizligi biz uchun muhimdir.</li>
+        <li><strong>Barqarorlik:</strong> Uzoq muddatli va barqaror echimlarni ishlab chiqamiz.</li>
+      </ul>
+    </div>
+    <div class="about-image">
+      <img src="https://play-lh.googleusercontent.com/5czw6iycA8YhjI653GQdwnnmu8NNzEMXV32gZKoVCYZV6PQUAv_YV0uJ2PU1E-Jm9PE" alt="Biz haqimizda">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bizning Sayt. Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+  <style>
+        /* Umumiy stil */
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+        margin: 0;
+        padding: 0;
+        }
+
+        header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        animation: fadeIn 1s ease-in-out;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+        header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+        transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+        color: #f0a500;
+        }
+
+        /* Animatsiya: Fade-in effekt */
+        @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+        }
+
+        .about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 20px;
+        margin: 20px;
+        animation: slideIn 1s ease-out;
+        }
+
+        .about-content {
+        flex: 1;
+        padding: 20px;
+        animation: fadeUp 1s ease-out;
+        }
+
+        .about-image {
+        flex: 1;
+        padding: 20px;
+        animation: fadeUp 1s ease-out;
+        }
+
+        .about-image img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Animatsiya: Yuqoriga siljish */
+        @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        /* Animatsiya: Yon tomondan kirish */
+        @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        }
+
+        /* Footer */
+        footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        animation: fadeIn 2s ease-in-out;
+        }
+
+  </style>
+
+</body>
+</html>

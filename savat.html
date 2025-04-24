@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Savatcha</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #1f1f1f;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #2f2f2f;
+    }
+    .header h1 {
+      font-size: 28px;
+      color: #f44336;
+    }
+    .header nav a {
+      color: #ccc;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .header nav a:hover {
+      color: #fff;
+    }
+    .movie-card {
+      background: #2f2f2f;
+      display: inline-block;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      margin-top: 10px;
+      background: crimson;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: darkred;
+    }
+    #orderButtonWrapper button {
+      background-color: orange;
+      color: black;
+      font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Киносайт</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="login.html">Войти</a>
+      <a href="favorites.html">Избранное</a>
+      <a href="savat.html">Корзина</a>
+      <a href="about_us.html">О нас</a>
+    </nav>
+  </header>
+
+  <h1 style="text-align: center;">Sizning savatchangiz</h1>
+  <div id="cartList"></div><br>
+  <!-- Oformit zakaz tugmasi -->
+  <div id="orderButtonWrapper" style="text-align: center; margin-top: 40px; display: none;">
+    <button onclick="makeOrder()">Оформить заказ</button>
+  </div>
+
+  <div style="margin: 0 auto; margin-top: 100px; color: rgb(255, 115, 0); font-size: 20px; background-color: #2f2f2f; padding: 3px 15px; min-width: 230px; text-align: center; border-radius: 12px;" id="totalPrice" class="total-price">
+    <h2>Jami narx: <span id="price">0</span> so'm</h2>
+  </div>
+
+
+  <script>
+    const cartList = document.getElementById("cartList");
+    const totalPrice = document.getElementById("price");
+    const orderButtonWrapper = document.getElementById("orderButtonWrapper");
+
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    function calculateTotalPrice() {
+      const total = cart.reduce((sum, movie) => sum + movie.price, 0);
+      totalPrice.textContent = total;
+    }
+
+    function renderCart() {
+      cartList.innerHTML = "";
+
+      if (cart.length === 0) {
+        cartList.innerHTML = `<p style="margin-top: 70px; color: gray; text-align: center; font-size: 20px;">Savatda mahsulotlar yo‘q</p>`;
+        totalPrice.textContent = "0";
+        orderButtonWrapper.style.display = "none";
+        return;
+      }
+
+      cart.forEach((movie, index) => {
+        const card = document.createElement("div");
+        card.className = "movie-card";
+        card.innerHTML = `
+          <img src="${movie.image}" alt="${movie.title}">
+          <h3>${movie.title}</h3>
+          <p>Цена: ${movie.price} сум</p>
+          <button onclick="removeFromCart(${index})">O‘chirish</button>
+        `;
+        cartList.appendChild(card);
+      });
+
+      calculateTotalPrice();
+      orderButtonWrapper.style.display = "block";
+    }
+
+    function removeFromCart(index) {
+      cart.splice(index, 1);
+      localStorage.setItem("cart", JSON.stringify(cart));
+      renderCart();
+    }
+
+    function makeOrder() {
+      // orders massivini localStorage’dan olish
+      let orders = JSON.parse(localStorage.getItem("orders")) || [];
+
+      // cartdagi mahsulotlarni ordersga qo‘shish
+      orders.push(...cart);
+
+      // yangilangan ordersni saqlash
+      localStorage.setItem("orders", JSON.stringify(orders));
+
+      // savatni tozalash
+      cart = [];
+      localStorage.setItem("cart", JSON.stringify(cart));
+
+      renderCart();
+      alert("✅ Buyurtmangiz qabul qilindi!");
+    }
+
+    renderCart();
+  </script>
+</body>
+</html>
